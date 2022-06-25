@@ -7,27 +7,31 @@ import BG from "../../projects/background-generator/background-generator";
 const Main = () => {
     const projects = [
         { 
+          id: 0,
           name: 'Background-generator',
           component: <BG />,
         },
         { 
-          name: 'Background-generator',
+          id: 1,
+          name: 'project2',
           component: <BG />,
         },
         { 
-            name: 'Background-generator',
-            component: <BG />,
-          },
-          { 
-            name: 'Background-generator',
-            component: <BG />,
-          },
+          id: 2,
+          name: 'project3',
+          component: <BG />,
+        },
+        { 
+          id: 3,
+          name: 'project4',
+          component: <BG />,
+        },
     ]
 
 
     return(
         <div className="main-container">
-            {projects.map(project => <ProjectBox name={project.name} component={project.component}/>)}
+            {projects.map(project => <ProjectBox key={project.id} name={project.name} component={project.component}/>)}
         </div>
     )
 }
