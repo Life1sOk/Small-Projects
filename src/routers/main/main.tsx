@@ -30,9 +30,12 @@ const Main = () => {
 
 
     return(
-        <div className="main-container">
-            {projects.map(project => <ProjectBox key={project.id} name={project.name} component={project.component}/>)}
-        </div>
+        <>
+          <h2 className="header">Projects</h2>
+          <div className="main-container">
+              {projects.map(project => <ProjectBox key={project.id} name={project.name} component={project.component}/>)}
+          </div>
+        </>
     )
 }
 
