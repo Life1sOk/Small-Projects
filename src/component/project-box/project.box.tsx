@@ -1,4 +1,6 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+
 import './project.box.style.scss';
 
 interface IProjectBox {
@@ -7,8 +9,10 @@ interface IProjectBox {
 }
 
 const ProjectBox = ({name, component} : IProjectBox) => {
+    const navigate = useNavigate();
+
     return(
-        <div className="project-box-container">
+        <div className="project-box-container" onClick={() => {navigate(`${name}`)}}>
             <p className="project-name">{name}</p>
             <div className="project-component">{component}</div>
         </div>

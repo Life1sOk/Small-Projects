@@ -5,6 +5,16 @@
     width: 400px;
     height: 400px;
     margin: 10px;
+    background-color: white;
+    border-top: 7px solid rgb(255, 89, 89);
+    border-radius: 20%;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+    }
 
     .project-name {
         display: flex;
@@ -12,16 +22,11 @@
         align-items: center;
         height: 10%;
         width: 100%;
-        border: 2px solid yellow;
-        background-color: aliceblue;
-        border-radius: 20%;
     }
 
     .project-component {
         height: 90%;
         width: 100%;
-        border: 1px solid lightblue;
         margin-top: 10px;
-        border-radius: 11%;
     }
 }
