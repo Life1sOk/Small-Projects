@@ -2,28 +2,27 @@ import React from "react";
 
 import ProjectBox from "../../component/project-box/project.box";
 import './main-style.scss';
-import BG from "../../projects/background-generator/background-generator";
 
 const projects = [
     { 
       id: 0,
       name: 'Background-generator',
-      component: <BG />,
+      component: <></>,
     },
     { 
       id: 1,
       name: 'project2',
-      component: <BG />,
+      component: <></>,
     },
     { 
       id: 2,
       name: 'project3',
-      component: <BG />,
+      component: <></>,
     },
     { 
       id: 3,
       name: 'project4',
-      component: <BG />,
+      component: <></>,
     },
 ]
 
