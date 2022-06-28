@@ -2,8 +2,8 @@ import React from 'react';
 import { Routes, Route } from "react-router-dom";
 
 import './App.css';
+import { projects } from './projects-array/projects.array';
 import Main from './routers/main';
-import BG from './projects-code/background-generator/background-generator';
 
 function App() {
  
@@ -11,10 +11,9 @@ function App() {
     <div className="App">
       <Routes>
         <Route path='/' element={<Main />}/>
-        <Route path='/background-generator' element={<BG />}/>
-        <Route path='/project2' element={<BG />}/>
-        <Route path='/project3' element={<BG />}/>
-        <Route path='/project4' element={<BG />}/>
+        { projects.map(project => {
+          return <Route path={project.name} element={project.project}/>
+        })}
       </Routes>
     </div>
   );

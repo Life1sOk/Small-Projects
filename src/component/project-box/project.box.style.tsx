@@ -7,7 +7,7 @@ export const ProjectBoxContainer = styled.div`
     width: 400px;
     height: 400px;
     margin: 50px 10px;
-    border-top: 7px solid rgb(255, 89, 89);
+    border-top: 7px solid white;
     border-radius: 20%;
     transform: translateZ(0);
     transition: transform 0.25s ease-out;
@@ -24,4 +24,5 @@ export const ProjectName = styled.p`
     align-items: center;
     height: 50px;
     width: 100%;
+    font-size: 25px;
 `;
