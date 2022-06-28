@@ -23,7 +23,7 @@ const BG = () => {
     const background = "linear-gradient(to right, " + value1 + ", " + value2 + ")";	
     
     return(
-        <BGContainer title={background}>
+        <BGContainer property={background}>
             <H1>BACKGROUND GENERATOR</H1>
             <Colors>
                 <Input type="color" onChange={(e) => setValue1(e.target.value)} value={value1}/>
@@ -31,7 +31,7 @@ const BG = () => {
             </Colors>
             <H2>CURRENT CSS BACKGROUND</H2>
             <H3>{background}</H3>
-            <Button title={background} onClick={random}>Random Generator</Button>
+            <Button property={background} onClick={random}>Random Generator</Button>
         </BGContainer>
     )
 }

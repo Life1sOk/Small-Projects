@@ -13,7 +13,7 @@ export const BGContainer = styled.div`
     text-transform: uppercase;
     letter-spacing: .5em;
     top: 15%;
-    background: ${props => props.title};
+    background: ${props => props.property};
 `;
 
 export const Colors = styled.div`
@@ -47,5 +47,5 @@ export const Button = styled.button`
     border-radius: 2em;
     border-color: white;
     border-style: solid;
-    background: ${props => props.title};
+    background: ${props => props.property};
 `;

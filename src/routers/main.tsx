@@ -1,13 +1,16 @@
 import React from "react";
 
-import ProjectBox from "../../component/project-box/project.box";
+import ProjectBox from "../component/project-box/project.box";
 import './main-style.scss';
+import Image from "../component/image-preview/image.component";
+const logo = require('../img/img.gif');
+
 
 const projects = [
     { 
       id: 0,
       name: 'Background-generator',
-      component: <></>,
+      component: <Image src={logo} alt="Background-generator"/>,
     },
     { 
       id: 1,
