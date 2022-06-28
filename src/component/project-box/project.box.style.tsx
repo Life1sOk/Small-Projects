@@ -5,7 +5,7 @@ export const ProjectBoxContainer = styled.div`
     flex-direction: column;
     align-items: center;
     width: 400px;
-    height: 400px;
+    max-height: 400px;
     margin: 50px 10px;
     border-top: 7px solid white;
     border-radius: 20%;
