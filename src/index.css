@@ -9,15 +9,6 @@
 
 body {
   font-family: 'Bebas Neue', cursive;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(338deg, rgba(0,255,32,1) 0%, rgba(255,177,0,1) 50%, rgba(224,0,255,1) 100%);
-  background-repeat: no-repeat;
-  background-position: inherit;
   background-attachment: fixed;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
