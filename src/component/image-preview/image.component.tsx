@@ -1,6 +1,6 @@
 import React from "react";
 
-import './image.style.scss';
+import { ImageContainer } from './image.style';
 
 interface IImage {
     src: string,
@@ -9,7 +9,7 @@ interface IImage {
 
 const Image = ({src, alt} : IImage)=> {
     return(
-        <img src={src} alt={alt }/>
+        <ImageContainer src={src} alt={alt }/>
     )
 }
 

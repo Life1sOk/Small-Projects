@@ -1,21 +1,22 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import './project.box.style.scss';
+import { ProjectBoxContainer, ProjectName } from "./project.box.style";
+import Image from '../image-preview/image.component';
 
 interface IProjectBox {
     name: string,
-    component: JSX.Element,
+    src: string,
 }
 
-const ProjectBox = ({name, component} : IProjectBox) => {
+const ProjectBox = ({name, src} : IProjectBox) => {
     const navigate = useNavigate();
 
     return(
-        <div className="project-box-container" onClick={() => {navigate(`${name}`)}}>
-            <p className="project-name">{name}</p>
-            <div className="project-component">{component}</div>
-        </div>
+        <ProjectBoxContainer onClick={() => {navigate(`${name}`)}}>
+            <ProjectName>{name}</ProjectName>
+            <Image src={src} alt={name}/>
+        </ProjectBoxContainer>
     )
 }
 

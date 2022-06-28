@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 import './App.css';
 import Main from './routers/main';
-import BG from './projects/background-generator/background-generator';
+import BG from './projects-code/background-generator/background-generator';
 
 function App() {
  
