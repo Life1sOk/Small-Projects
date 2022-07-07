@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/small-projects/static/css/main.c8e5a9b5.css",
+    "main.js": "/small-projects/static/js/main.1738988f.js",
+    "static/media/robolist.gif": "/small-projects/static/media/robolist.abab01374e2e14b66220.gif",
+    "static/media/background-generator.gif": "/small-projects/static/media/background-generator.754a6c67bc96448d4864.gif",
+    "index.html": "/small-projects/index.html",
+    "main.c8e5a9b5.css.map": "/small-projects/static/css/main.c8e5a9b5.css.map",
+    "main.1738988f.js.map": "/small-projects/static/js/main.1738988f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8e5a9b5.css",
+    "static/js/main.1738988f.js"
+  ]
+}
