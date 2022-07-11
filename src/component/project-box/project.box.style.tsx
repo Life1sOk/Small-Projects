@@ -7,7 +7,6 @@ export const ProjectBoxContainer = styled.div`
     align-items: center;
     width: 400px;
     max-height: 400px;
-    margin: 50px 10px;
     border-top: 7px solid white;
     border-radius: 20%;
     transform: translateZ(0);
@@ -17,6 +16,10 @@ export const ProjectBoxContainer = styled.div`
     &:hover {
         cursor: pointer;
         transform: scale(1.05);
+    }
+
+    @media only screen and (max-width: 436px) {
+        width: 250px;
     }
 `;
 

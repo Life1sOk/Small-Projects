@@ -6,12 +6,12 @@ import { projects } from "../projects-array/projects.array";
 
 const Main = () => {
 
-    return(
+    return (
         <>
-          <Header>Projects</Header>
-          <MainContainer>
-              {projects.map(project => <ProjectBox key={project.id} name={project.name} src={project.src}/>)}
-          </MainContainer>
+            <Header>Projects</Header>
+            <MainContainer>
+                {projects.map(project => <ProjectBox key={project.id} name={project.name} src={project.src} />)}
+            </MainContainer>
         </>
     )
 }
