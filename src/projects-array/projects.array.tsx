@@ -1,5 +1,6 @@
 import BG from "../projects-code/background-generator/background-generator";
-import Robolist from "../projects-code/robolist/robolist.component";
+import Robolist from "../projects-code/robolist/robolist";
+import ToDo from "../projects-code/ToDo/todo";
 
 export const projects = [
   {
@@ -13,5 +14,11 @@ export const projects = [
     name: 'Robolist',
     src: require('../img/robolist.gif'),
     project: <Robolist />,
+  },
+  {
+    id: 2,
+    name: 'ToDo',
+    src: require('../img/robolist.gif'),
+    project: <ToDo />,
   },
 ]
