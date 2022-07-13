@@ -6,13 +6,13 @@ import { projects } from './projects-array/projects.array';
 import Main from './routers/main';
 
 function App() {
- 
+
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<Main />}/>
-        { projects.map(project => {
-          return <Route path={project.name} element={project.project}/>
+        <Route path='/' element={<Main />} />
+        {projects.map(project => {
+          return <Route key={project.id} path={project.name} element={project.project} />
         })}
       </Routes>
     </div>
