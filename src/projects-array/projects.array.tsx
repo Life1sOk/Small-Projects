@@ -12,9 +12,9 @@ export const projects = [
   },
   {
     id: 1,
-    name: 'Robolist',
-    src: require('../img/robolist.gif'),
-    project: <Robolist />,
+    name: 'Quote-generator',
+    src: require('../img/quote.gif'),
+    project: <QuoteGenerator />,
   },
   {
     id: 2,
@@ -24,8 +24,8 @@ export const projects = [
   },
   {
     id: 3,
-    name: 'Quote-generator',
+    name: 'Robolist',
     src: require('../img/robolist.gif'),
-    project: <QuoteGenerator />,
+    project: <Robolist />,
   },
 ]

@@ -7,6 +7,5 @@ export const SearchBoxInput = styled.input`
   padding: 10px;
   width: 150px;
   line-height: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin: 30px auto;
 `;

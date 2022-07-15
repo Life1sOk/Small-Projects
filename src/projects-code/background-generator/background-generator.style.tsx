@@ -6,8 +6,10 @@ export const BGContainer = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font: 'Raleway', sans-serif;
+
     height: 100vh;
+    min-width: 500px;
+    font: 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
@@ -32,7 +34,7 @@ export const H1 = styled.h1`
 export const H2 = styled.h2`
     padding: 30px;
 `;
- 
+
 export const H3 = styled.h3`
     font: 900 1em 'Raleway', sans-serif;
     text-transform: none;
